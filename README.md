@@ -103,8 +103,8 @@ echo "This is the note content" | obsidian-note --title "My Piped Note" --vault 
 You can set default values for `vault` and `path` using environment variables:
 
 ```bash
-export VAULT="MyVault"
-export PATH="Notes"
+export OBSIDIAN_VAULT="MyVault"
+export OBSIDIAN_PATH="Notes"
 ```
 
 This configuration allows you to avoid specifying `--vault` and `--path` for each note.
