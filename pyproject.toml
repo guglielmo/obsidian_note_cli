@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "obsidian_note_cli"
-version = "0.1.4"
+version = "0.1.5"
 description = "CLI tool to save well-structured notes in Obsidian format"
 authors = ["Guglielmo Celata <guglielmo.celata@gmail.com>"]
 readme = "README.md"
