@@ -187,4 +187,4 @@ Contributions are welcome! Please feel free to open issues or submit pull reques
 
 ## Contact
 
-For questions or suggestions, please contact [your.email@example.com](mailto:your.email@example.com).
+For questions or suggestions, please contact [guglielmo.celata@example.com](mailto:guglielmo.celata@gmail.com).
