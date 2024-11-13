@@ -66,7 +66,7 @@ This command dynamically uses the current version from pyproject.toml by extract
 To create a note, specify at least the title, vault, and tags:
 
 ```bash
-obsidian-note --title "My First Note" --vault "MyVault" --path "Notes" --tags "tag1,tag2"
+obsidian-note --title "My First Note" --vault "MyVault" --path "Notes" --tags "tag1 tag2"
 ```
 
 This command saves a note in the specified vault and path with the provided title and tags.
@@ -84,7 +84,7 @@ obsidian-note --interactively
 You can pipe content into `obsidian-note`:
 
 ```bash
-echo "This is the note content" | obsidian-note --title "My Piped Note" --vault "MyVault" --path "Notes" --tags "piped,content"
+echo "This is the note content" | obsidian-note --title "My Piped Note" --vault "MyVault" --path "Notes" --tags "piped content"
 ```
 
 ### Options
@@ -126,7 +126,7 @@ This configuration allows you to avoid specifying `--vault` and `--path` for eac
 3. **Pipe Content into a Note**
 
    ```bash
-   echo "This is piped content" | obsidian-note --title "Piped Note" --vault "MyVault" --path "Notes" --tags "example,pipe"
+   echo "This is piped content" | obsidian-note --title "Piped Note" --vault "MyVault" --path "Notes" --tags "example pipe"
    ```
 
 4. **Use with fabric**
@@ -187,4 +187,4 @@ Contributions are welcome! Please feel free to open issues or submit pull reques
 
 ## Contact
 
-For questions or suggestions, please contact [guglielmo.celata@example.com](mailto:guglielmo.celata@gmail.com).
+For questions or suggestions, please contact [guglielmo.celata@gmail.com](mailto:guglielmo.celata@gmail.com).
